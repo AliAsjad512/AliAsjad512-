@@ -1,0 +1,33 @@
+body {
+    position: relative;
+    background-image: url('buildings.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tab {
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(128, 128, 128, 0.8);
+    padding: 0.5% 1.5% 1.5% 1%;
+}
+
+.btn-1 {
+    display: block;
+    background-color: #fff;
+    padding: 3px 10px;
+    color: black;
+    margin-top: 2%;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+}
+
+.btn-1:hover {
+    background-color: rgb(235, 225, 225);
+}
